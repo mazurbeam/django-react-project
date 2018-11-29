@@ -33,9 +33,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.sites',
     'django.contrib.staticfiles',
+    
+    'allauth',
 
     'rest_framework',
-    'allauth',
+
+    'webpack_loader',
 
 ]
 
@@ -130,3 +133,4 @@ STATICFILES_DIRS = (
 )
 
 STATIC_URL = '/static/'
+
