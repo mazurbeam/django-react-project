@@ -12,6 +12,7 @@ ENV=development
 `docker-compose up`
 `docker-compose exec api python manage.py createsuperuser`
 
+API Login at `api.localhost/auth/login/`
 API Browser is accessible at `api.localhost/v1`
 ### Backend
 
