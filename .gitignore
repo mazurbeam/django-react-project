@@ -6,3 +6,5 @@
 
 /.vscode
 /api/config/settings/local.py
+
+*/node_modules
